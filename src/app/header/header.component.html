@@ -1,0 +1,27 @@
+<header class="fix">
+  <div class="logo">
+    <img src="../../assets/header/logo2.PNG" alt="logo" />
+  </div>
+  <div class="nav-icons">
+    <div class="icons">
+      <i class="fa fa-twitter-square"></i>
+      <i class="fa fa-facebook-square"></i>
+      <i class="fa fa-linkedin-square"></i>
+      <i class="fa fa-tumblr-square"></i>
+      <i class="fa fa-github-square"></i>
+    </div>
+    <div class="mobile-icons">
+      <i class="fa fa-bars" (click)="show()" [ngStyle]="{display:displaybars}"></i>
+      <i class="fa fa-times" (click)="hide()" [ngStyle]="{display:displaytimes}"></i>
+    </div>
+    <nav [class.toggled]="classToggled">
+      <ul>
+        <li><a href="#" class="active"> Privacy by Design</a></li>
+        <li><a href="#"> Services</a></li>
+        <li><a href="#"> Cultivate</a></li>
+        <li><a href="#"> Help</a></li>
+        <li><a href="#"> About</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>

@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Hundredth by The Branded Quotes';
+    src: url('HundredthbyTheBrandedQuotes.woff2') format('woff2'),
+        url('HundredthbyTheBrandedQuotes.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

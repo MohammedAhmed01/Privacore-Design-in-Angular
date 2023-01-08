@@ -1,0 +1,170 @@
+.footer-one {
+  padding: 60px 0;
+}
+.logo,
+.form,
+.follow-icons {
+  width: 360px;
+  display: inline-block;
+  margin-right: 30px;
+}
+.follow-icons {
+  margin-right: 0;
+}
+.logo p {
+  font-size: 14px;
+  line-height: 26px;
+  color: #404b56;
+  font-family: "Open Sans";
+  margin-top: 50px;
+}
+.logo p a {
+  text-decoration: none;
+  color: #0ea8b3;
+}
+.form {
+  vertical-align: top;
+  text-align: right;
+  padding: 0 30px;
+}
+.form h3,
+.follow-icons h3 {
+  font-size: 20px;
+  line-height: 40px;
+  color: #404b56;
+  font-weight: lighter;
+  margin-bottom: 25px;
+  text-align: left;
+}
+.form input {
+  display: inline-block;
+  width: 300px;
+  height: 40px;
+  margin-bottom: 20px;
+  outline: none;
+}
+.form input::placeholder {
+  padding-left: 15px;
+  font-size: 16px;
+  line-height: 26px;
+  color: #7f878e;
+  font-family: "Open Sans";
+}
+
+.form input:focus {
+  outline: none;
+  border: 2px solid #0cc4ca;
+  border-radius: 5px;
+}
+.form button {
+  padding: 8px 25px;
+  font-size: 14px;
+  line-height: 18px;
+  color: #ffffff;
+  font-family: "Open Sans s-bold";
+  background-color: #0cc4ca;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}
+.follow-icons {
+  vertical-align: top;
+}
+.follow-icons h3 {
+  margin-left: 0;
+}
+.follow-icons .icons i {
+  margin-right: 15px;
+  color: #95adb8;
+}
+.follow-icons .icons i:hover {
+  color: #238cc8;
+}
+.follow-icons p {
+  font-size: 14px;
+  line-height: 26px;
+  font-family: "Open Sans";
+  color: #404b56;
+  margin-top: 30px;
+}
+.follow-icons p a {
+  text-decoration: none;
+  color: #0ea8b3;
+}
+.fluid-container-footer {
+  background-color: #404b56;
+}
+@media screen and (max-width: 1199px) {
+  .logo,
+  .form,
+  .follow-icons {
+    width: 280px;
+    display: inline-block;
+    margin-right: 15px;
+  }
+  .follow-icons {
+    margin-left: 45px;
+  }
+  .form input {
+    width: 220px;
+    margin-left: 0px;
+  }
+  .form {
+    margin-left: 20px;
+  }
+}
+@media screen and (max-width: 979px) {
+  .logo,
+  .form,
+  .follow-icons {
+    width: 200px;
+    display: inline-block;
+    margin-right: 15px;
+  }
+  .logo {
+    margin-left: 10px;
+  }
+  .logo img {
+    width: 200px;
+  }
+  .form {
+    padding: 0;
+    margin-left: 50px;
+  }
+  .form input {
+    width: 200px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .footer-one {
+    text-align: center;
+    display: block;
+  }
+  .footer-one .logo,
+  .footer-one .form,
+  .footer-one .follow-icons {
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+  }
+  .follow-icons p {
+    font-size: 13px;
+  }
+  .logo p,
+  .follow-icons p {
+    text-align: left;
+  }
+  .form,
+  .logo {
+    margin-bottom: 20px;
+  }
+  .form input,
+  .form button {
+    width: 100%;
+  }
+  .form h3,
+  .follow-icons h3 {
+    text-align: center !important;
+  }
+}

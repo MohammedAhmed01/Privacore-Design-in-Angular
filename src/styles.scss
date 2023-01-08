@@ -1,0 +1,116 @@
+/* You can add global styles to this file, and also import other style files */
+//fonts
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../src/assets/fonts/open sans regular/OpenSans.woff2') format('woff2'),
+        url('../src/assets/fonts/open sans regular/OpenSans.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Centuma';
+    src: url('../src//assets/fonts/centuma bold/Centuma-Bold.woff2') format('woff2'),
+        url('../src//assets/fonts/centuma bold/Centuma-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Myriad Pro';
+    src: url('../src/assets/fonts/myriadpro/MyriadPro-Regular.woff2') format('woff2'),
+        url('../src/assets/fonts/myriadpro/MyriadPro-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Open Sans ligtitalic';
+    src: url('../src/assets/fonts/open sans ligth italic/OpenSansLight-Italic.woff2') format('woff2'),
+        url('../src/assets/fonts/open sans ligth italic/OpenSansLight-Italic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Open Sans semibold';
+    src: url('../src/assets/fonts/open sans semibold/OpenSans-Semibold.woff2') format('woff2'),
+        url('../src/assets/fonts/open sans semibold/OpenSans-Semibold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Open Sans bold';
+    src: url('../src/assets/fonts/open sans bold/OpenSans-Bold.woff2') format('woff2'),
+        url('../src/assets/fonts/open sans bold/OpenSans-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto bold';
+    src: url('../src/assets/fonts/roboto-bold/Roboto-Bold.woff2') format('woff2'),
+        url('../src/assets/fonts/roboto-bold/Roboto-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto regular';
+    src: url('../src/assets/fonts/roboto-regular/Roboto-Regular.woff2') format('woff2'),
+        url('../src/assets/fonts/roboto-regular/Roboto-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Hundredth by The Branded Quotes';
+    src: url('../src/assets/fonts/centuma/HundredthbyTheBrandedQuotes.woff2') format('woff2'),
+        url('../src/assets/fonts/centuma/HundredthbyTheBrandedQuotes.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans s-bold';
+    src: url('../src/assets/fonts/open-sans-semibold/OpenSans-Semibold.woff2') format('woff2'),
+        url('../src/assets/fonts/open-sans-semibold/OpenSans-Semibold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.fix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.header{
+    margin-bottom: 60px;
+}
